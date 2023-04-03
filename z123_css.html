@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tex</title>
+
+    <style>
+        .red {
+            color: red;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        .lightgray {
+            color: lightgray;
+            font-style: italic;
+        }
+
+        .grayfon {
+            background-color: rgb(243, 243, 243);
+        }
+
+        .c1 {
+            color: black;
+            background-color: rgb(243, 243, 243);
+            font-weight: bold;
+        }
+
+        .text1 {
+            font-size: 100px;
+        }
+
+        .text2 {
+            font-size: 30px;
+        }
+
+        .black {
+            color: black;
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        .white {
+            color: white;
+            background-color: black;
+            border: 2px solid black;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+    <a href="alltasks.html">Все задания</a>
+
+    <h2>Задание 1 - Tex</h2>
+
+    <p class="text1">
+        <span class="red">J</span>o<span class="blue">y</span> of TE<span class="green">X</span>
+    </p>
+
+
+
+
+    <hr>
+    <h2>Задание 2 - Canvas</h2>
+    <h3>Creating chat</h3>
+
+    <p class="gray"> 
+        To create a chart, we need to instantiate the <span class="c1">Chart</span> class. To do this, we need to pass in the 2d context of where we want to draw the chart. Here's an example.
+    </p>
+
+    <p class="grayfon">
+        <span class="blue">&lt; canvas </span> <span class="green">id=</span><span class="red">"myChart"</span> <span class="green">width=</span><span class="red">"400"</span> <span class="green">height=</span><span class="red">"400"</span><span class="blue">&gt; &lt; /canvas &gt;</span> 
+    </p>
+
+    <p class="grayfon">
+        <span class="lightgray">// Get the context of the canvas element we want to select</span> <br>
+        <span class="c1">var</span> ctx = <span class="blue">document.</span>getElementByld(<span class="red">"myChart"</span>).getContext(<span class="red">"2d"</span>); <br>
+        <span class="c1">var</span> myNewChart - <span class="c1">new</span> Chart(ctx).PolarArea(data);
+    </p>
+
+    <p class="gray">
+        We can also get the context of our canvas with JQuery. To do this, we need to get the DOM node out of the jQuery collection, and call the <span class="c1">getContext("2d")</span> method on that.
+    </p>
+
+    <p class="grayfon">
+        <span class="lightgray">// Get context with jQuery - using jQuery's .get() method.</span> <br>
+        <span class="c1">var</span> ctx = $(<span class="red">"#myChart"</span>).get(<span class="blue">0</span>).GetContext(<span class="red">"2d"</span>); <br>
+        <span class="lightgray">// This will get the first returned node in the jQuery collection</span> <br>
+        <span class="c1">var</span> myNewChart = <span class="c1">new</span> Chart(ctx);
+    </p>
+
+    <p class="gray">
+        After we've instantiated the Chart class on the canvas we want to draw onn, Chart.js will handle the scaling for retina dasplays.
+    </p>
+
+
+
+
+    <hr>
+    <h2>Задание 3 - Black&White</h2>
+
+    <p class="text1">
+        <span class="black">BLACK</span><span class="white">WHITE</span>
+    </p>
+
+    <hr>
+
+</body>
+</html>
