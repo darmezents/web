@@ -1,0 +1,88 @@
+h1 {
+    color: #80C1FF;
+}
+
+p {
+    color: #0000FF
+
+}
+
+i {
+    color: #FF4499;
+}
+
+/* 0,0,0,1 = 1 */
+span{ 
+    color: #000000;
+}
+
+/* 0,0,1,0 = 10 */
+.text{
+    color: #00FFFF;
+}
+
+/* 0,0,0,1 + 0,0,1,0 = 0,0,1,1 */
+p .text {
+    color: #A680FF;
+}
+
+/*0,0,0,1 + 0,0,0,1 + 0,0,1,0 = 0,0,1,2 */
+p span.text {
+    color: #389FFF;
+}
+
+/* 0,0,0,1 -> 1,0,0,0  */
+/* .text{ */
+    /* color: #4457FF !important; */
+/* } */
+
+/* 0,1,0,0 */
+#molestias {
+    color: #000000;
+}
+
+div {
+    background-color: #80C1FF;
+    color:#FFFFFF;
+
+    margin-bottom: 10px;
+
+    /* варианты, как сделать отступы */
+
+    /* margin: 10px; */
+
+    /* margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 25px; */
+
+    /* margin: 10px 5px 10px 5px; */
+
+    /* margin: 10px 5px; */
+
+    /* margin: 10px 15px 25px; */
+
+    border: 5px solid #669bcc;
+    padding: 100px;
+    width: 50%;
+}
+
+* {
+    margin: 0;
+
+}
+
+.container {
+    background-color: #FFF;
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
