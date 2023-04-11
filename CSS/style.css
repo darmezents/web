@@ -42,7 +42,7 @@ p span.text {
 }
 
 div {
-    background-color: #80c2ff7c;
+    background-color: #80C1FF;
     color:#FFFFFF;
 
     margin-bottom: 10px;
@@ -62,13 +62,13 @@ div {
 
     /* margin: 10px 15px 25px; */
 
-    border: 3px solid #669bcc;
+    border: 5px solid #669bcc;
     padding: 100px;
     width: 50%;
 }
 
 * {
-    margin: 1px;
+    margin: 0;
 
 }
 
