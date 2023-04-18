@@ -1,15 +1,74 @@
+
+ * {
+    margin: 0;
+}
+
 .header {
     display: flex;
+    text-align: center;
+    background-color: #00A8E7;
+    color: #ffffff;
 }
 
 .header-title {
     width: 20%;
+    padding: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    border-right: 2px solid #ffffff;
+    font-size: 90%;
 }
 
 .header-menu {
-    width: 60%;
+    width: 80%;
+    background-color: #9ee4fd;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 120%;
+    padding: 1%;
+}
+
+.ul1 {
+    list-style-type: none;
+    display: flex;
+    padding: 1%;
+    box-shadow: 2px 2px 0 0 #ffffff;
+}
+
+li.main a{
+    display: flex;
+    color: #000000;
+    background-color: #9ee4fd;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+}
+
+li.main1 a{
+    display: flex;
+    color: #000000;
+    background-color: #ffffffc9;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+}
+
+li.main a:hover, li.main1 a:hover{
+    background-color: #00A8E7;
+    color: #ffffff;
 }
 
 .header-search {
     width: 20%;
+    padding: 1%;
+    border-left: 2px solid #ffffff;
 }
+
+input.inputmain {
+    width: 80%;
+    background-color: #ffffff;
+    margin: 3%;
+    border-color: #898989;
+    border-radius: 15px;
+    padding: 10px;
+ }
+
+
+  
+  
