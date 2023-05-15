@@ -9,24 +9,32 @@
 </head>
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-info" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Навбар</a>
+              <a class="navbar-brand col-2" href="#">WEB bootstrap</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 col">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Элемент</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Элемент</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Ссылка</a>
                   </li>                
                 </ul>
-                <form class="d-flex" role="search">
+
+                <form class="d-flex col-2" role="search">
                   <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
-                  <button class="btn btn-outline-success" type="submit">Поиск</button>
+                  <button class="btn btn-outline-dark" type="submit">Поиск</button>
                 </form>
               </div>
             </div>
@@ -58,7 +66,7 @@
 
                     <div class="row">
                         <div class="col-3">
-                            <img src="https://loremflickr.com/320/240" class="img-fluid img-thumbnail" alt="">
+                            <img src="https://lipsum.app/id/15/1600x1200" class="img-fluid img-thumbnail" alt="">
                         </div>
 
                         <div class="col-9">
@@ -74,7 +82,7 @@
                                       </ul>
                                 </div>
                                 <div class="col-5">
-                                    <button class="btn btn-dark">Подробнее</button>
+                                    <button class="btn btn-info text-white">Подробнее</button>
                                 </div>
                             </div>
                        </div>
@@ -92,7 +100,7 @@
 
                     <div class="row">
                         <div class="col-3">
-                            <img src="https://loremflickr.com/320/240" class="img-fluid img-thumbnail" alt="">
+                            <img src="https://lipsum.app/id/24/1600x1200" class="img-fluid img-thumbnail" alt="">
                         </div>
 
                         <div class="col-9">
@@ -108,7 +116,7 @@
                                       </ul>
                                 </div>
                                 <div class="col-5">
-                                    <button class="btn btn-dark">Подробнее</button>
+                                    <button class="btn btn-info text-white">Подробнее</button>
                                 </div>
                             </div>
                        </div>
@@ -126,7 +134,7 @@
 
                     <div class="row">
                         <div class="col-3">
-                            <img src="https://loremflickr.com/320/240" class="img-fluid img-thumbnail" alt="">
+                            <img src="https://lipsum.app/id/19/1600x1200" class="img-fluid img-thumbnail" alt="">
                         </div>
 
                         <div class="col-9">
@@ -142,13 +150,25 @@
                                       </ul>
                                 </div>
                                 <div class="col-5">
-                                    <button class="btn btn-dark">Подробнее</button>
+                                    <button class="btn btn-info text-white">Подробнее</button>
                                 </div>
                             </div>
                        </div>
                      </div>
                 </div>
 
+
+                <nav aria-label="Пример навигации по страницам">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">Предыдущая</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">5</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">Следующая</a></li>
+                    </ul>
+                  </nav>
                 
             </div>
 
