@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-info" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand col-2" href="#">WEB bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 col">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Элемент</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Элемент</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ссылка</a>
+                  </li>                
+                </ul>
+
+                <form class="d-flex col-2" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                  <button class="btn btn-outline-dark" type="submit">Поиск</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+      <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-2 d-none d-md-flex border-end border-info">
+                <ul>
+                    <li>Список статей</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li><i class="bi bi-balloon-heart-fill"></i></li>
+                </ul> 
+                
+            </div>
+
+            <div class="col-12 col-md-7">
+
+              <div class="row mb-3">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://lipsum.app/id/12/1600x1200" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Метка первого слайда</h5>
+                        <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://lipsum.app/id/16/1600x1200" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Метка второго слайда</h5>
+                        <p>Некоторый репрезентативный заполнитель для второго слайда.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://lipsum.app/id/11/1600x1200" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Метка третьего слайда</h5>
+                        <p>Некоторый репрезентативный заполнитель для третьего слайда.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://lipsum.app/id/10/1600x1200" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Метка четвертого слайда</h5>
+                        <p>Некоторый репрезентативный заполнитель для четвертого слайда.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://lipsum.app/id/9/1600x1200" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Метка пятого слайда</h5>
+                        <p>Некоторый репрезентативный заполнитель для пятого слайда.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                  </button>
+                </div>
+              </div>
+
+                <div class="row mb-2">
+                    <div class="row">
+                        <div class="col">
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://lipsum.app/id/15/1600x1200" class="img-fluid img-thumbnail" alt="">
+                        </div>
+
+                        <div class="col-9">
+                            <div class="row">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, fuga. Tenetur quaerat laboriosam aperiam pariatur neque. Culpa illum perferendis facere deserunt accusantium iure quas similique temporibus repudiandae earum! Vero, ad.
+                            </div>
+                            <div class="row border mt-4 p-2">
+                                <div class="col-7">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">Это</li>
+                                        <li class="list-inline-item">И</li>
+                                        <li class="list-inline-item"><i class="bi bi-eye"> 751 </i></li>
+                                      </ul>
+                                </div>
+                                <div class="col-5">
+                                    <button class="btn btn-info text-white">Подробнее</button>
+                                </div>
+                            </div>
+                       </div>
+                     </div>
+                </div>
+
+
+                
+                <div class="row  mb-2">
+                    <div class="row">
+                        <div class="col">
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://lipsum.app/id/24/1600x1200" class="img-fluid img-thumbnail" alt="">
+                        </div>
+
+                        <div class="col-9">
+                            <div class="row">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, fuga. Tenetur quaerat laboriosam aperiam pariatur neque. Culpa illum perferendis facere deserunt accusantium iure quas similique temporibus repudiandae earum! Vero, ad.
+                            </div>
+                            <div class="row border mt-4 p-2">
+                                <div class="col-7">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">Это</li>
+                                        <li class="list-inline-item">И</li>
+                                        <li class="list-inline-item"><i class="bi bi-eye"> 269 </i></li>
+                                      </ul>
+                                </div>
+                                <div class="col-5">
+                                    <button class="btn btn-info text-white">Подробнее</button>
+                                </div>
+                            </div>
+                       </div>
+                     </div>
+                </div>
+
+
+                
+                <div class="row  mb-2">
+                    <div class="row">
+                        <div class="col">
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://lipsum.app/id/19/1600x1200" class="img-fluid img-thumbnail" alt="">
+                        </div>
+
+                        <div class="col-9">
+                            <div class="row">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, fuga. Tenetur quaerat laboriosam aperiam pariatur neque. Culpa illum perferendis facere deserunt accusantium iure quas similique temporibus repudiandae earum! Vero, ad.
+                            </div>
+                            <div class="row border mt-4 p-2">
+                                <div class="col-7">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">Это</li>
+                                        <li class="list-inline-item">И</li>
+                                        <li class="list-inline-item">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                                          <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                                        </svg> 458
+                                        </li>
+                                      </ul>
+                                </div>
+                                <div class="col-5">
+                                    <button class="btn btn-info text-white">Подробнее</button>
+                                </div>
+                            </div>
+                       </div>
+                     </div>
+                </div>
+
+
+                <nav aria-label="Пример навигации по страницам">
+                    <ul class="pagination justify-content-center m-1">
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">Предыдущая</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">5</a></li>
+                      <li class="page-item"><a class="page-link bg-info text-white" href="#">Следующая</a></li>
+                    </ul>
+                  </nav>
+                
+            </div>
+
+            <div class="col-2 border-start border-info">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugiat beatae, aspernatur pariatur ipsam reiciendis corporis delectus quasi magni nemo natus tempore laboriosam quia ea iste aut nisi ipsa porro?
+                   </p>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="..." class="rounded me-2" alt="...">
+          <strong class="me-auto">Bootstrap</strong>
+          <small>11 мин. назад</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+        </div>
+        <div class="toast-body">
+          Привет мир! Это тост-сообщение.
+        </div>
+      </div>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  
+      
+</body>
+</html>
